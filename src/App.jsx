@@ -1,7 +1,30 @@
+import { Album } from "./components/Album";
 import data from "./data.json";
+
+
 
 console.log(data);
 
 export const App = () => {
-  return <div>Find me in src/app.jsx!</div>;
+
+  const renderAlbums = () =>
+    data.albums.items.map(
+      ({ id, name, external_urls, images, artists }) => (
+        <section key={id}>
+          <Album
+            albumName={name}
+            albumURL={external_urls.spotify}
+            coverImage={images[0].url}
+            artistName={artists}
+          />
+        </section>
+      )
+    );
+
+  const renderContent = renderAlbums();
+
+
+  return <div>{renderContent}</div>;
 };
+
+
