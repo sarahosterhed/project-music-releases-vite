@@ -17,7 +17,7 @@ export const Album = ({
                 albumName={albumName}
                 albumURL={albumURL}
             />
-               <ArtistNames
+            <ArtistNames
                 artistName={artistName}
             />
         </div>

@@ -1,7 +1,8 @@
 export const Header = () => {
     return (
         <header>
-            <h1>New Albums & Singles</h1>
+            <h1 className="header">New Albums & Singles</h1>
+            <p className="header">Technigo Education Team</p>
         </header>
     )
 }

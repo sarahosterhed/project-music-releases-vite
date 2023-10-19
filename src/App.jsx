@@ -27,7 +27,7 @@ export const App = () => {
 
 
   return (
-    <div className="App">
+    <div className="app">
       <Header />
 
       <div className="wrapper">{renderContent}</div>
