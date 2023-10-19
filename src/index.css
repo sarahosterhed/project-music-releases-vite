@@ -44,17 +44,16 @@ body {
 }
 
 .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, 22%); 
+  grid-gap: 16px; 
+  justify-content: center; 
 }
 
 /* Album */
 
 .album {
-  max-width: 235px;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .album div:nth-child(2) {
@@ -104,6 +103,7 @@ body {
   height: auto;
 }
 
+
 .icons {
   position: absolute;
   width: 100%;
@@ -130,3 +130,21 @@ body {
   transform: scale(1.15);
   transition: all ease-in-out 0.2s;
 }
+
+/* tablet RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+  grid-template-columns: repeat(auto-fill, 40%); 
+}
+
+}
+
+
+
+/* Mobile RESPONSIVE */
+
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, 90%); 
+}
+
