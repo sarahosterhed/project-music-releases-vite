@@ -4,10 +4,15 @@ export const ArtistNames = ({ artistName }) => {
         <div>
             {artistName.map((artists, index) => (
 
-                <a key={artists.id} href={artists.external_urls.spotify}>{index > 0 && ', '}{artists.name}</a>
-            )
-            )
-            }
+                <span key={artists.id}>
+                    {index > 0 ? (index === artistName.length - 1 ? ' & ' : ', ') : ''}
+                    <a target="_blank" href={artists.external_urls.spotify}>
+                        {artists.name}
+                    </a>
+
+                </span>
+
+            ))}
 
         </div >
 

@@ -1,7 +1,7 @@
 export const AlbumName = ({ albumURL, albumName }) => {
 
     return (
-        <a href={albumURL}>
+        <a href={albumURL} target="_blank">
             {albumName}
         </a>
     );
