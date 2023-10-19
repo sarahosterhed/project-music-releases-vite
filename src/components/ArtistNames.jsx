@@ -6,7 +6,7 @@ export const ArtistNames = ({ artistName }) => {
 
                 <span key={artists.id}>
                     {index > 0 ? (index === artistName.length - 1 ? ' & ' : ', ') : ''}
-                    <a target="_blank" href={artists.external_urls.spotify}>
+                    <a className="artist-name" target="_blank" href={artists.external_urls.spotify}>
                         {artists.name}
                     </a>
 

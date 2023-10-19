@@ -9,16 +9,15 @@ export const Album = ({
     artistName
 }) => {
     return (
-        <div>
+        <div className="album">
+            <CoverImage
+                coverImage={coverImage}
+            />
             <AlbumName
                 albumName={albumName}
                 albumURL={albumURL}
             />
-            <CoverImage
-                coverImage={coverImage}
-            />
-
-            <ArtistNames
+               <ArtistNames
                 artistName={artistName}
             />
         </div>

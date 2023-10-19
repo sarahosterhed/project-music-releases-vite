@@ -30,7 +30,7 @@ export const App = () => {
     <div className="App">
       <Header />
 
-      <div>{renderContent}</div>
+      <div className="wrapper">{renderContent}</div>
     </div>
   )
 };
