@@ -6,11 +6,10 @@
 
 # Music Releases
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The assignment was to build a site in React displaying music releases and fetch that data from a provided json-file.
 
 ## Getting Started with the Project
+We started with defining the different components, structuring the site and creating a file-structure.
 
 ### Dependency Installation & Startup Development Server
 
@@ -28,7 +27,11 @@ Describe how you approached to problem, and what tools and techniques you used t
 
 ### View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Link to the deployed site:
+https://grand-squirrel-c1578d.netlify.app/
+
+
+By: Sarah Österhed and Joona Miettinen
 
 ## Instructions
 
