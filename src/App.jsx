@@ -24,7 +24,7 @@ export const App = () => {
   const renderContent = renderAlbums();
 
 
-  return <div>{renderContent}</div>;
+  return <div className="wrapper">{renderContent}</div>;
 };
 
 

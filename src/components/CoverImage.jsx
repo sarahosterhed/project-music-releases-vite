@@ -1,6 +1,6 @@
 export const CoverImage = ({ coverImage, coverALT }) => {
     return (
-        <img src={coverImage} alt={coverALT}></img>
+        <img className="cover-image" src={coverImage} alt={coverALT}></img>
     )
 
 }
