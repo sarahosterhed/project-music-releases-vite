@@ -29,18 +29,17 @@ body {
 /* Header */
 
 header {
-  display: flex;
-  justify-content: center;
+  border-bottom: solid 1px #252525;
+  margin-bottom: 16px;
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   font-size: 18px;
   font-family: "Helvetica", sans-serif;
   color: #fff;
-  margin-bottom: 16px;
-  border-bottom: solid 1px #252525;
-  padding-bottom: 8px;
-  width: 92.6%;
+  margin-bottom: 8px;
 }
 
 /* layout */
@@ -141,9 +140,6 @@ header {
   .wrapper {
   grid-template-columns: repeat(auto-fill, 40%);
 }
-.header {
-  width: 82.6%;
-}
 }
 
 
@@ -154,9 +150,6 @@ header {
   .wrapper {
     grid-template-columns: repeat(auto-fill, 90%); 
     
-}
-.header {
-  width: 90%;
 }
 }
 
